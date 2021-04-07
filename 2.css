@@ -1,0 +1,31 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        @font-face {
+            font-family: aperpro;
+            src: url(transfonter.org-20210303-071000/ApercuPro-Regular.woff2);
+        }
+        
+        @font-face {
+            font-family: decker;
+            src: url(webfonts_Decker-Bold/Decker-Bold.ttf.woff);
+        }
+        
+        body {
+            font-family: aperpro;
+            margin: 0;
+            padding: 0;
+        }
+        
+        ul {
+            padding: 0;
+        }
+        
+        a {
+            text-decoration: none;
+            display: inline-block;
+            color: white;
+            font-size: 20px;
+        }

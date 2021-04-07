@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+@font-face {
+    font-family: trojan;
+    src: url(/heatextreme/trojanfont/TrajanPro-Bold.woff2);
+}
+
+@font-face {
+    font-family: Decker-bold;
+    src: url(webfonts_Decker-Bold/Decker-Bold.ttf.woff);
+}
+
+@font-face {
+    font-family: aper-pro;
+    src: url(transfonter.org-20210303-071000/ApercuPro-Regular.woff2);
+}
+
+body {
+    font-family: aper-pro
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+}
+
+.banner-text {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    right: 0;
+}
+
+.subscribe input::after {
+    content: "";
+    border-bottom: 1px solid grey;
+}
+
+footer {
+    background-color: black;
+}
+
+footer a {
+    color: white;
+}
+
+.navbar {
+    top: 0;
+}
+
+.navi-bar {
+    top: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.mid {
+    display: none;
+}
+
+.phone {
+    display: none;
+}
+
+.learnmoretext-one {
+    margin: 3rem 13rem;
+    font-size: 20px;
+}
+
+.navbar-toggler {
+    transition: 0.5s ease-in-out;
+}
+
+.collapse {
+    transition: 0.5s ease-in-out;
+}
+
+.drop {
+    text-align: center;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.3);
+    transition: 0.5s ease-in-out;
+}
+
+.banner-down-logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.down-banner-text {
+    width: 75%;
+    top: 40%;
+    right: 5%;
+}
+
+.subscribe input {
+    background-color: black;
+    border: none;
+}
+
+header .nav-link {
+    font-size: 13px!important;
+}
+
+footer h6 {
+    color: white;
+}
+
+footer {
+    background-color: black;
+}
+
+.nav-item input {
+    background-color: black;
+    outline: none;
+    border: none;
+    color: white;
+}
+
+.subafter::after {
+    content: "";
+    background-color: white;
+    border: 1px solid white;
+    width: 200px;
+    height: 1px;
+    display: flex;
+    text-align: center;
+}
+
+input[type=email]:hover {
+    cursor: text;
+}
+
+@media only screen and (max-width: 1000px) {
+    .banner-image .desk {
+        display: none
+    }
+    .banner-image .mid {
+        display: block;
+    }
+    .down-banner-text {
+        top: 19%;
+        right: 6%;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .learnmoretext-one {
+        margin: 3rem 5rem;
+        font-size: 15px;
+    }
+    .down-banner-text h2 {
+        font-size: 20px;
+    }
+    .down-banner-text h4 {
+        font-size: 15px;
+    }
+    .down-banner-text {
+        top: 9%;
+        right: 0;
+        width: 100%!important;
+    }
+    footer h2 {
+        font-size: 15px
+    }
+    .subscribe h3 {
+        font-size: 15px;
+    }
+    footer .col-3 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width:576px) {
+    .logo-footer img {
+        max-width: 50%;
+    }
+    .small-links {
+        display: flex;
+        flex-direction: column!important;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .learnmoretext-one {
+        margin: 2rem 1rem;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:620px) {
+    .banner-image .desk {
+        display: none
+    }
+    .banner-image .mid {
+        display: none;
+    }
+    .banner-image .phone {
+        display: block;
+    }
+}
+
+@media only screeen and (max-width:576px) and (min-width:300px) {
+    .drop {
+        text-align: center;
+        z-index: 1;
+        background-color: rgba(0, 0, 0, 0.3);
+        transition: 0.5s ease-in-out;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    .banner-text h2 {
+        font-size: 20px;
+        color: white;
+    }
+    .navbar-brand {
+        max-width: 150px;
+        display: block;
+    }
+}
+
+@media only screen and (max-width:343px) {
+    .navbar-brand {
+        max-width: 150px;
+        display: block;
+    }
+    .navbar-brand img {
+        width: 100%;
+    }
+}
